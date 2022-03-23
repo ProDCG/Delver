@@ -1,0 +1,14 @@
+slot1
+5
+2
+6
+3
+2
+1
+105
+Sword,Spear,Knife
+Ripper
+slot2
+EMPTY
+slot3
+EMPTY

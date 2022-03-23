@@ -57,6 +57,12 @@ public class Game {
 		// fifth level should be Esmarelda
 	}
 
+	public void dataSetup() {
+		System.out.println("***SAVED DATA***");
+		System.out.println("Select a save slot:");
+		System.out.println("");
+	}
+
 	// User selects which character to play
 	public void charSelect() {
 

@@ -23,6 +23,7 @@ abstract public class MainChar extends GameChar implements Combatant {
 	int weapRank; // ability to use weapons
 	int xp; // experience points
 	Item[] inv; // inventory
+	String charName; // character name
 
 	// CONSTRUCTORS
 	public MainChar() {
@@ -38,6 +39,18 @@ abstract public class MainChar extends GameChar implements Combatant {
 		inv = new Item[str + 5]; // strength determines carrying capacity
 		maxHP = con * 2 + 10; // constitution determines hit points
 		hp = maxHP; // new characters start at max health
+	}
+
+	public MainChar(int str, int con, int dex, int wis, int armorRank, int weapRank, int xp, Item[] inv, String charName) {
+		this.str = str;
+		this.con = con;
+		this.dex = dex;
+		this.wis = wis;
+		this.armorRank = armorRank;
+		this.weapRank = weapRank;
+		this.xp = xp;
+		this.inv = inv;
+		this.charName = charName;
 	}
 
 	// METHODS
