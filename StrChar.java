@@ -12,7 +12,7 @@ public class StrChar extends MainChar {
 		super();
 		
 		// generate name and gold
-		name = Dice.nameGenerator(Dice.rollDice(1, 2), 0.8);
+		// name = Dice.nameGenerator(Dice.rollDice(1, 2), 0.8);
 		gold = Dice.rollDice(5, 12);
 		
 		// boost stats and select class

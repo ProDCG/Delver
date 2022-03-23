@@ -65,7 +65,7 @@ public class Game {
 		// Now that we need user input, init Scanner
 		user = new Scanner(System.in);
 
-		System.out.println("Which character would you like to play as? Enter 1, 2, or 3\n");
+		System.out.println("Which class would you like to play as? Enter 1, 2, or 3\n");
 
 		// generate three random characters
 		MainChar[] starterChars = { Dice.getRandChar(), Dice.getRandChar(), Dice.getRandChar() };
@@ -89,6 +89,7 @@ public class Game {
 
 	// add more characters to the party
 	public void recruit() {
+		clearConsole();
 		System.out.println("***RECRUITING***");
 		
 		// The wiser a character, the bigger the party they can have
@@ -265,4 +266,8 @@ public class Game {
 		}
 	}
 
+	// prints out x amount of lines
+	private void clearConsole() {
+		System.out.println("\n".repeat(50));
+	}
 }

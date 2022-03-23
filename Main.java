@@ -16,6 +16,7 @@ public class Main {
 	
 	// welcome message to be printed in main method
 	public static void welcome() {
+		System.out.println("\n".repeat(50));
 		System.out.println("Welcome adventurer!");
 		System.out.println("The evil wizard Esmarelda rules these realms with cruelty");
 		System.out.println("The people wait for a champion to rise up and defeat her");

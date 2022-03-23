@@ -69,7 +69,7 @@ abstract public class MainChar extends GameChar implements Combatant {
 	
 	// toString method
 	public String toString() {
-		String out = name + " " + level + " : " + charType + " | ";
+		String out = charType + " | ";
 		out += "hp: " + hp + "/" + maxHP + " " + str + "/" + con + "/" + dex + "/" + wis + " | ";
 		out += "gold: " + gold;
 		return out;
