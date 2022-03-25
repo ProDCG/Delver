@@ -41,7 +41,7 @@ abstract public class MainChar extends GameChar implements Combatant {
 		hp = maxHP; // new characters start at max health
 	}
 
-	public MainChar(int str, int con, int dex, int wis, int armorRank, int weapRank, int xp, Item[] inv, String charName) {
+	public MainChar(int str, int con, int dex, int wis, int armorRank, int weapRank, int xp, Item[] inv, String charName, String name, String loc, String charType, int level, int hp) {
 		this.str = str;
 		this.con = con;
 		this.dex = dex;
@@ -51,6 +51,12 @@ abstract public class MainChar extends GameChar implements Combatant {
 		this.xp = xp;
 		this.inv = inv;
 		this.charName = charName;
+		this.name = name;
+		this.loc = loc;
+		this.charType = charType;
+		this.level = level;
+		this.maxHP = hp;
+		this.hp = hp;
 	}
 
 	// METHODS
