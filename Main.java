@@ -4,7 +4,7 @@
  * 
  * Program Starts Here. This class only responsible for welcome message,
  * creating Game object, and ending message.
- * Created by Paul Mulvaney
+ * Created by Paul Mulvaney & Mason Stuart
  */
 public class Main {
 
