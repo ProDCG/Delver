@@ -7,7 +7,7 @@
 
 public class StrChar extends MainChar {
 	
-	// CONSTRUCTOR
+	// CONSTRUCTOR 
 	public StrChar() {
 		super();
 		

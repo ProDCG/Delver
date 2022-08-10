@@ -7,7 +7,7 @@
 
 public class SpellChar extends MainChar implements SpellCaster {
 	
-	// CONSTRUCTOR
+	// CONSTRUCTOR 
 	public SpellChar() {
 		super();
 		

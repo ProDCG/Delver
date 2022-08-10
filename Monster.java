@@ -8,7 +8,7 @@ public class Monster extends GameChar implements Combatant {
 	// FIELDS
 	// level and name inherited from Game Char
 	
-	// CONSTRUCTOR
+	// CONSTRUCTOR 
 	public Monster(int level) {
 		this.level = level; // monster level equal to room difficulty
 		String lev1 = "Rat Goblin Skeleton Zombie";
