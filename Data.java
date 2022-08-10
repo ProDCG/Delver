@@ -15,6 +15,7 @@ public class Data {
                 index = curLine.charAt(4);
             }
 
+            // Ignore for now, not done yet
             int str = Integer.parseInt(fileParser.nextLine());
             int con = Integer.parseInt(fileParser.nextLine());
             int dex = Integer.parseInt(fileParser.nextLine());
