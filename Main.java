@@ -31,16 +31,7 @@ public class Main {
 		sleep(2000);
 		System.out.println("Together, you will fight monsters, discover magic items, and overthrow Esmarelda");
 		sleep(2000);
-		System.out.print(".");
-		sleep(1000);
-		System.out.print(".");
-		sleep(1000);
-		System.out.print(".");
-		sleep(1000);
-		System.out.print(".");
-		sleep(1000);
-		System.out.print(".");
-		sleep(5000);
+		dots();
 	}
 	
 	// ending message not yet implemented
@@ -51,14 +42,27 @@ public class Main {
 		System.out.println("The people rejoice in your name!");
 		System.out.println("You are an inspirer. A warrior. A great adventurer");
 		System.out.println("The monsters crumble at your name, as the realms fall back into peace");
-		System.out.println("...\n\n");
+		dots();
 	}
 
-	public static void sleep(int time) {
+	private static void sleep(int time) {
 		try {
 			TimeUnit.MILLISECONDS.sleep(time);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+	}
+
+	private static void dots() {
+		System.out.print(".");
+		sleep(1000);
+		System.out.print(".");
+		sleep(1000);
+		System.out.print(".");
+		sleep(1000);
+		System.out.print(".");
+		sleep(1000);
+		System.out.print(".");
+		sleep(5000);
 	}
 }

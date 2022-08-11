@@ -66,7 +66,7 @@ public class Game {
 	// User selects which character to play
 	public void charSelect() {
 
-		System.out.println("***STARTING CHARACTER***");
+		System.out.println("\n".repeat(50) + "***STARTING CHARACTER***");
 
 		// Now that we need user input, init Scanner
 		user = new Scanner(System.in);
