@@ -7,7 +7,6 @@
  * Created by Paul Mulvaney & Mason Stuart
  */
 
-import java.security.Timestamp;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
@@ -38,10 +37,15 @@ public class Main {
 	public static void ending() {
 		System.out.println("\n".repeat(50));
 		System.out.println("Congratulations adventurer!");
+		sleep(2000);
 		System.out.println("You have successfully defeated the evil wizard Esmarelda");
+		sleep(2000);
 		System.out.println("The people rejoice in your name!");
+		sleep(2000);
 		System.out.println("You are an inspirer. A warrior. A great adventurer");
+		sleep(2000);
 		System.out.println("The monsters crumble at your name, as the realms fall back into peace");
+		sleep(2000);
 		dots();
 	}
 
