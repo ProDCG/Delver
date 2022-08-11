@@ -26,4 +26,13 @@ public class Main {
 	}
 	
 	// ending message not yet implemented
+	public static void ending() {
+		System.out.println("\n".repeat(50));
+		System.out.println("Congratulations adventurer!");
+		System.out.println("You have successfully defeated the evil wizard Esmarelda");
+		System.out.println("The people rejoice in your name!");
+		System.out.println("You are an inspirer. A warrior. A great adventurer");
+		System.out.println("The monsters crumble at your name, as the realms fall back into peace");
+		System.out.println("...\n\n");
+	}
 }
