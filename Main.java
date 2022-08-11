@@ -6,6 +6,10 @@
  * creating Game object, and ending message.
  * Created by Paul Mulvaney & Mason Stuart
  */
+
+import java.security.Timestamp;
+import java.util.concurrent.TimeUnit;
+
 public class Main {
 
 	// main method
@@ -18,11 +22,25 @@ public class Main {
 	public static void welcome() {
 		System.out.println("\n".repeat(50));
 		System.out.println("Welcome adventurer!");
+		sleep(2000);
 		System.out.println("The evil wizard Esmarelda rules these realms with cruelty");
+		sleep(2000);
 		System.out.println("The people wait for a champion to rise up and defeat her");
+		sleep(2000);
 		System.out.println("You are an adventurer. You must recruit others to your party");
+		sleep(2000);
 		System.out.println("Together, you will fight monsters, discover magic items, and overthrow Esmarelda");
-		System.out.println("...\n\n");
+		sleep(2000);
+		System.out.print(".");
+		sleep(1000);
+		System.out.print(".");
+		sleep(1000);
+		System.out.print(".");
+		sleep(1000);
+		System.out.print(".");
+		sleep(1000);
+		System.out.print(".");
+		sleep(5000);
 	}
 	
 	// ending message not yet implemented
@@ -34,5 +52,13 @@ public class Main {
 		System.out.println("You are an inspirer. A warrior. A great adventurer");
 		System.out.println("The monsters crumble at your name, as the realms fall back into peace");
 		System.out.println("...\n\n");
+	}
+
+	public static void sleep(int time) {
+		try {
+			TimeUnit.MILLISECONDS.sleep(time);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 }
