@@ -26,6 +26,9 @@ public class Data {
             int xp = Integer.parseInt(fileParser.nextLine());
             String inventoryLine = fileParser.nextLine();
             int amtOfItems = (int) inventoryLine.chars().filter(ch -> ch == ' ').count();
+            for (int i = 0; i < amtOfItems; i++) {
+
+            }
         }
     }
 }
